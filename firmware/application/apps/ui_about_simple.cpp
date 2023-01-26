@@ -39,7 +39,11 @@ namespace ui
                 console.writeln("heurist1,intoxsick,ckuethe");
                 console.writeln("notpike,jLynx,zigad");
                 console.writeln("MichalLeonBorsuk,jimilinuxguy");
-                console.writeln("joyel24");
+                console.writeln("joyel24,BehleZebub,arneluehrs");
+                console.writeln("formtapez,F33RNI,rusty-labs");
+                console.writeln("gullradriel,andrej-mk,igolyudov");
+                console.writeln("taskinen,MattLodge,TQMatvey");
+                console.writeln("RobertoD91,N0vaPixel,KimIV")
                 console.writeln("");
                 break;
 
@@ -49,10 +53,11 @@ namespace ui
                 console.writeln("furrtek,mrmookie,NotPike");
                 console.writeln("mjwaxios,ImDroided,Giorgiofox");
                 console.writeln("F4GEV,z4ziggy,xmycroftx");
-                console.writeln("troussos,silascutler");
+                console.writeln("troussos,silascutler,RndmNmbr");
                 console.writeln("nickbouwhuis,msoose,leres");
                 console.writeln("joakar,dhoetger,clem-42");
-                console.writeln("brianlechthaler,ZeroChaos-...");
+                console.writeln("brianlechthaler,ZeroChaos-");
+                console.writeln("Maescool,RndmNmbr,OpCode1300");
                 console.writeln("");
                 break;
 
