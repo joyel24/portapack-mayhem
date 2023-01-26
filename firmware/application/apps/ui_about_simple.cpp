@@ -20,20 +20,21 @@ namespace ui
         if (++timer > 200)
         {
             timer = 0;
+            int x  = 5;
 
             switch (++frame)
             {
             case 1:
                 // TODO: Generate this automatically from github
                 // https://github.com/eried/portapack-mayhem/graphs/contributors?to=2022-01-01&from=2020-04-12&type=c
-                console.writeln("\x1B\x06Mayhem:\x1B\x10");
-                console.writeln("eried,euquiq,gregoryfenton");
-                console.writeln("johnelder,jwetzell,nnemanjan00");
-                console.writeln("N0vaPixel,klockee,GullCode");
-                console.writeln("jamesshao8,ITAxReal,rascafr");
-                console.writeln("mcules,dqs105,strijar");
-                console.writeln("zhang00963,RedFox-Fr,aldude999");
-                console.writeln("East2West,fossum,ArjanOnwezen");
+                console.writeln("\x1B\x06Mayhem:\x1B\x10"); if (timer < (x * timer) ){break;}
+                console.writeln("eried,euquiq,gregoryfenton"); if (timer < (2 * x * timer) ){break;}
+                console.writeln("johnelder,jwetzell,nnemanjan00"); if (timer < (3 * x * timer) ){break;}
+                console.writeln("N0vaPixel,klockee,GullCode"); if (timer < (4 * x * timer) ){break;}
+                console.writeln("jamesshao8,ITAxReal,rascafr"); if (timer < (5 * x * timer) ){break;}
+                console.writeln("mcules,dqs105,strijar"); if (timer < (6 * x * timer) ){break;}
+                console.writeln("zhang00963,RedFox-Fr,aldude999"); if (timer < (7 * x * timer) ){break;}
+                console.writeln("East2West,fossum,ArjanOnwezen"); if (timer < (8 * x * timer) ){break;}
                 //To do : put everywhere with interrupt instead of sleep
                 console.writeln("vXxOinvizioNxX,teixeluis");chThdSleepMilliseconds(800);
                 console.writeln("Brumi-2021,texasyojimbo");chThdSleepMilliseconds(800);
