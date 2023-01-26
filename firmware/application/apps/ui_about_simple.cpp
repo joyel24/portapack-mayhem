@@ -37,11 +37,11 @@ namespace ui
                 console.writeln("vXxOinvizioNxX,teixeluis");
                 console.writeln("Brumi-2021,texasyojimbo");
                 console.writeln("heurist1,intoxsick,ckuethe");
-                console.writeln("notpike,jLynx,zigad");
+                console.writeln("notpike,jLynx,zigad,andrej-mk");
                 console.writeln("MichalLeonBorsuk,jimilinuxguy");
                 console.writeln("joyel24,BehleZebub,arneluehrs");
                 console.writeln("formtapez,F33RNI,rusty-labs");
-                console.writeln("gullradriel,andrej-mk,igolyudov");
+                console.writeln("gullradriel,igolyudov");
                 console.writeln("taskinen,MattLodge,TQMatvey");
                 console.writeln("RobertoD91,N0vaPixel,KimIV");
                 console.writeln("");
