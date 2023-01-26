@@ -39,6 +39,7 @@ namespace ui
                 console.writeln("heurist1,intoxsick,ckuethe");
                 console.writeln("notpike,jLynx,zigad");
                 console.writeln("MichalLeonBorsuk,jimilinuxguy");
+                console.writeln("joyel24");
                 console.writeln("");
                 break;
 
