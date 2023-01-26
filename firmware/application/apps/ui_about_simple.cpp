@@ -34,16 +34,16 @@ namespace ui
                 console.writeln("mcules,dqs105,strijar");
                 console.writeln("zhang00963,RedFox-Fr,aldude999");
                 console.writeln("East2West,fossum,ArjanOnwezen");
-                console.writeln("vXxOinvizioNxX,teixeluis");
-                console.writeln("Brumi-2021,texasyojimbo");
-                console.writeln("heurist1,intoxsick,ckuethe");
-                console.writeln("notpike,jLynx,zigad,andrej-mk");
-                console.writeln("MichalLeonBorsuk,jimilinuxguy");
-                console.writeln("joyel24,BehleZebub,arneluehrs");
-                console.writeln("formtapez,F33RNI,rusty-labs");
-                console.writeln("gullradriel,igolyudov");
-                console.writeln("taskinen,MattLodge,TQMatvey");
-                console.writeln("RobertoD91,N0vaPixel,KimIV");
+                console.writeln("vXxOinvizioNxX,teixeluis");delay(1000);
+                console.writeln("Brumi-2021,texasyojimbo");delay(1000);
+                console.writeln("heurist1,intoxsick,ckuethe");delay(1000);
+                console.writeln("notpike,jLynx,zigad,andrej-mk");delay(1000);
+                console.writeln("MichalLeonBorsuk,jimilinuxguy");delay(1000);
+                console.writeln("joyel24,BehleZebub,arneluehrs");delay(1000);
+                console.writeln("formtapez,F33RNI,rusty-labs");delay(1000);
+                console.writeln("gullradriel,igolyudov");delay(1000);
+                console.writeln("taskinen,MattLodge,TQMatvey");delay(1000);
+                console.writeln("RobertoD91,N0vaPixel,KimIV");delay(1000);
                 console.writeln("");
                 break;
 
