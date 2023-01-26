@@ -34,16 +34,16 @@ namespace ui
                 console.writeln("mcules,dqs105,strijar");
                 console.writeln("zhang00963,RedFox-Fr,aldude999");
                 console.writeln("East2West,fossum,ArjanOnwezen");
-                console.writeln("vXxOinvizioNxX,teixeluis");delay_us(800000);
-                console.writeln("Brumi-2021,texasyojimbo");delay_us(800000);
-                console.writeln("heurist1,intoxsick,ckuethe");delay_us(800000);
-                console.writeln("notpike,jLynx,zigad,andrej-mk");delay_us(800000);
-                console.writeln("MichalLeonBorsuk,jimilinuxguy");delay_us(800000);
-                console.writeln("joyel24,BehleZebub,arneluehrs");delay_us(800000);
-                console.writeln("formtapez,F33RNI,rusty-labs");delay_us(800000);
-                console.writeln("gullradriel,igolyudov");delay_us(800000);
-                console.writeln("taskinen,MattLodge,TQMatvey");delay_us(800000);
-                console.writeln("RobertoD91,N0vaPixel,KimIV");delay_us(800000);
+                console.writeln("vXxOinvizioNxX,teixeluis");chThdSleepMilliseconds(800);
+                console.writeln("Brumi-2021,texasyojimbo");chThdSleepMilliseconds(800);
+                console.writeln("heurist1,intoxsick,ckuethe");chThdSleepMilliseconds(800);
+                console.writeln("notpike,jLynx,zigad,andrej-mk");chThdSleepMilliseconds(800);
+                console.writeln("MichalLeonBorsuk,jimilinuxguy");chThdSleepMilliseconds(800);
+                console.writeln("joyel24,BehleZebub,arneluehrs");chThdSleepMilliseconds(800);
+                console.writeln("formtapez,F33RNI,rusty-labs");chThdSleepMilliseconds(800);
+                console.writeln("gullradriel,igolyudov");chThdSleepMilliseconds(800);
+                console.writeln("taskinen,MattLodge,TQMatvey");chThdSleepMilliseconds(800);
+                console.writeln("RobertoD91,N0vaPixel,KimIV");chThdSleepMilliseconds(800);
                 console.writeln("");
                 break;
 
