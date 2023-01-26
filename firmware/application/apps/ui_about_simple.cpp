@@ -43,7 +43,7 @@ namespace ui
                 console.writeln("formtapez,F33RNI,rusty-labs");
                 console.writeln("gullradriel,andrej-mk,igolyudov");
                 console.writeln("taskinen,MattLodge,TQMatvey");
-                console.writeln("RobertoD91,N0vaPixel,KimIV")
+                console.writeln("RobertoD91,N0vaPixel,KimIV");
                 console.writeln("");
                 break;
 
