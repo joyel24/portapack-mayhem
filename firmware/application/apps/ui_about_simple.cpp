@@ -34,6 +34,7 @@ namespace ui
                 console.writeln("mcules,dqs105,strijar");
                 console.writeln("zhang00963,RedFox-Fr,aldude999");
                 console.writeln("East2West,fossum,ArjanOnwezen");
+                //To do : put everywhere with interrupt instead of sleep
                 console.writeln("vXxOinvizioNxX,teixeluis");chThdSleepMilliseconds(800);
                 console.writeln("Brumi-2021,texasyojimbo");chThdSleepMilliseconds(800);
                 console.writeln("heurist1,intoxsick,ckuethe");chThdSleepMilliseconds(800);
