@@ -17,35 +17,40 @@ namespace ui
 
     void AboutView::update()
     {
-        if (++timer > 200)
+        if (++timer > 100)
         {
             timer = 0;
-            int x  = 5;
-
+            frame += 1;
+            console.writeln("\x1B\x06Mayhem:\x1B\x10"); if ( frame <=1 ){break;}
+            console.writeln("eried,euquiq,gregoryfenton"); if ( frame <=2 ){break;}
+            console.writeln("johnelder,jwetzell,nnemanjan00"); if ( frame <=3 ){break;}
+            console.writeln("N0vaPixel,klockee,GullCode"); if ( frame <=4 ){break;}
+            console.writeln("jamesshao8,ITAxReal,rascafr"); if ( frame <=5 ){break;}
+            /*
             switch (++frame)
             {
             case 1:
                 // TODO: Generate this automatically from github
                 // https://github.com/eried/portapack-mayhem/graphs/contributors?to=2022-01-01&from=2020-04-12&type=c
-                console.writeln("\x1B\x06Mayhem:\x1B\x10"); if (timer < (x * timer) ){break;}
-                console.writeln("eried,euquiq,gregoryfenton"); if (timer < (2 * x * timer) ){break;}
-                console.writeln("johnelder,jwetzell,nnemanjan00"); if (timer < (3 * x * timer) ){break;}
-                console.writeln("N0vaPixel,klockee,GullCode"); if (timer < (4 * x * timer) ){break;}
-                console.writeln("jamesshao8,ITAxReal,rascafr"); if (timer < (5 * x * timer) ){break;}
-                console.writeln("mcules,dqs105,strijar"); if (timer < (6 * x * timer) ){break;}
-                console.writeln("zhang00963,RedFox-Fr,aldude999"); if (timer < (7 * x * timer) ){break;}
-                console.writeln("East2West,fossum,ArjanOnwezen"); if (timer < (8 * x * timer) ){break;}
+                console.writeln("\x1B\x06Mayhem:\x1B\x10"); if ( frame <1 ){break;}
+                console.writeln("eried,euquiq,gregoryfenton"); if ( frame <1 ){break;}
+                console.writeln("johnelder,jwetzell,nnemanjan00"); if ( frame <1 ){break;}
+                console.writeln("N0vaPixel,klockee,GullCode"); if ( frame <1 ){break;}
+                console.writeln("jamesshao8,ITAxReal,rascafr"); if ( frame <1 ){break;}
+                console.writeln("mcules,dqs105,strijar"); 
+                console.writeln("zhang00963,RedFox-Fr,aldude999");
+                console.writeln("East2West,fossum,ArjanOnwezen"); 
                 //To do : put everywhere with interrupt instead of sleep
-                console.writeln("vXxOinvizioNxX,teixeluis");chThdSleepMilliseconds(800);
-                console.writeln("Brumi-2021,texasyojimbo");chThdSleepMilliseconds(800);
-                console.writeln("heurist1,intoxsick,ckuethe");chThdSleepMilliseconds(800);
-                console.writeln("notpike,jLynx,zigad,andrej-mk");chThdSleepMilliseconds(800);
-                console.writeln("MichalLeonBorsuk,jimilinuxguy");chThdSleepMilliseconds(800);
-                console.writeln("joyel24,BehleZebub,arneluehrs");chThdSleepMilliseconds(800);
-                console.writeln("formtapez,F33RNI,rusty-labs");chThdSleepMilliseconds(800);
-                console.writeln("gullradriel,igolyudov");chThdSleepMilliseconds(800);
-                console.writeln("taskinen,MattLodge,TQMatvey");chThdSleepMilliseconds(800);
-                console.writeln("RobertoD91,N0vaPixel,KimIV");chThdSleepMilliseconds(800);
+                console.writeln("vXxOinvizioNxX,teixeluis");
+                console.writeln("Brumi-2021,texasyojimbo");
+                console.writeln("heurist1,intoxsick,ckuethe");
+                console.writeln("notpike,jLynx,zigad,andrej-mk");
+                console.writeln("MichalLeonBorsuk,jimilinuxguy");
+                console.writeln("joyel24,BehleZebub,arneluehrs");
+                console.writeln("formtapez,F33RNI,rusty-labs");
+                console.writeln("gullradriel,igolyudov");
+                console.writeln("taskinen,MattLodge,TQMatvey");
+                console.writeln("RobertoD91,N0vaPixel,KimIV");
                 console.writeln("");
                 break;
 
@@ -81,7 +86,7 @@ namespace ui
                 console.writeln("");
                 frame = 0; // Loop
                 break;
-            }
+            }*/
         }
     }
 
