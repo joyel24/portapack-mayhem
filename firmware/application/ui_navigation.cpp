@@ -88,6 +88,8 @@
 #include "file.hpp"
 #include "png_writer.hpp"
 
+#include "ui_newapp.hpp"
+
 using portapack::receiver_model;
 using portapack::transmitter_model;
 
