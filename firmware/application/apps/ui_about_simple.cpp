@@ -20,23 +20,17 @@ namespace ui
         if (++timer > 100)
         {
             timer = 0;
-            frame += 1;
-            console.writeln("\x1B\x06Mayhem:\x1B\x10"); if ( frame <=1 ){break;}
-            console.writeln("eried,euquiq,gregoryfenton"); if ( frame <=2 ){break;}
-            console.writeln("johnelder,jwetzell,nnemanjan00"); if ( frame <=3 ){break;}
-            console.writeln("N0vaPixel,klockee,GullCode"); if ( frame <=4 ){break;}
-            console.writeln("jamesshao8,ITAxReal,rascafr"); if ( frame <=5 ){break;}
-            /*
+            
             switch (++frame)
             {
             case 1:
                 // TODO: Generate this automatically from github
                 // https://github.com/eried/portapack-mayhem/graphs/contributors?to=2022-01-01&from=2020-04-12&type=c
-                console.writeln("\x1B\x06Mayhem:\x1B\x10"); if ( frame <1 ){break;}
-                console.writeln("eried,euquiq,gregoryfenton"); if ( frame <1 ){break;}
-                console.writeln("johnelder,jwetzell,nnemanjan00"); if ( frame <1 ){break;}
-                console.writeln("N0vaPixel,klockee,GullCode"); if ( frame <1 ){break;}
-                console.writeln("jamesshao8,ITAxReal,rascafr"); if ( frame <1 ){break;}
+                console.writeln("\x1B\x06Mayhem:\x1B\x10");
+                console.writeln("eried,euquiq,gregoryfenton");
+                console.writeln("johnelder,jwetzell,nnemanjan00");
+                console.writeln("N0vaPixel,klockee,GullCode");
+                console.writeln("jamesshao8,ITAxReal,rascafr");
                 console.writeln("mcules,dqs105,strijar"); 
                 console.writeln("zhang00963,RedFox-Fr,aldude999");
                 console.writeln("East2West,fossum,ArjanOnwezen"); 
@@ -86,7 +80,7 @@ namespace ui
                 console.writeln("");
                 frame = 0; // Loop
                 break;
-            }*/
+            }
         }
     }
 
