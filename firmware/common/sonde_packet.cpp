@@ -31,7 +31,7 @@ static uint8_t calibytes[51*16];	//need these vars to survive
 static uint8_t calfrchk[51];		//so subframes are preserved while populated
 
 //Defines for Vaisala RS41, from https://github.com/rs1729/RS/blob/master/rs41/rs41sg.c
-#define MASK_LEN
+#define MASK_LEN 64
 
 //Following values include the 4 bytes less shift, consumed in detecting the header on proc_sonde
 #define block_status  0x35	//0x039  // 40 bytes
