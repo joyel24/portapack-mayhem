@@ -64,6 +64,8 @@ Packet::Packet(
 			type_ = Type::Meteomodem_M10;
 		else if (id_byte == 0x648F)
 			type_ = Type::Meteomodem_M2K2;
+		else if (id_byte == 0x4520)
+			type_ = Type::Meteomodem_M10;		
 	}
 }
 
