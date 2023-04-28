@@ -113,9 +113,9 @@ GPS_data Packet::get_GPS_data() const
 	}
 	else if (type_ == Type::Meteomodem_M20)
 	{
-		result.alt = (reader_bi_m.read(8 * 8, 32) / 1000) - 48;
-		result.lat = reader_bi_m.read(28 * 8, 32) / ((1ULL << 32) / 360.0);
-		result.lon = reader_bi_m.read(32 * 8, 32) / ((1ULL << 32) / 360.0);
+		result.alt = (reader_bi_m.read(8 * 8, 32) / 100) - 48;
+		result.lat = reader_bi_m.read(28 * 8, 32) / 1000000 ;  // / ((1ULL << 32) / 360.0);
+		result.lon = reader_bi_m.read(32 * 8, 32) / 1000000 ; // / ((1ULL << 32) / 360.0);
 	}
 	else if (type_ == Type::Vaisala_RS41_SG)
 	{
