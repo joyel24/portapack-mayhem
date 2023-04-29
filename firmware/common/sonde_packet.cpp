@@ -113,7 +113,7 @@ GPS_data Packet::get_GPS_data() const
 	}
 	else if (type_ == Type::Meteomodem_M20)
 	{
-		result.alt = ((reader_bi_m.read(8 * 8, 32) / 100) - 48) / 1000 ;
+		result.alt = ((reader_bi_m.read(8 * 8, 32) / 100) - 48) / 250 ;
 		//double_t a = reader_bi_m.read(28 * 8, 32);
 		result.lat = reader_bi_m.read(28 * 8, 32) / 1000000.0 ;  // / ((1ULL << 32) / 360.0);
 		result.lon = reader_bi_m.read(32 * 8, 32) / 1000000.0 ; // / ((1ULL << 32) / 360.0);
