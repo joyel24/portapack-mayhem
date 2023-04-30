@@ -18,7 +18,7 @@ VOLUME /havocbin
 
 #Fetch dependencies from APT
 RUN apt-get update && \
-        apt-get install -y tar wget dfu-util cmake python bzip2 curl python3 python3-yaml git && \
+        apt-get install -y tar wget dfu-util cmake python bzip2 curl python3 python3-yaml git liblz4-dev lz4 && \
         apt-get -qy autoremove
 
 #Install current pip from PyPa
