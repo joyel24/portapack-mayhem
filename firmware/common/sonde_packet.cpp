@@ -173,8 +173,8 @@ temp_humid Packet::get_temp_humid() const {
     if (type_ == Type::Meteomodem_M20){
         uint16_t temp_byte = reader_bi_m.read(7 * 8, 8) << 8 | reader_bi_m.read(6 * 8, 8);
         uint16_t humid_byte = reader_bi_m.read(3* 8, 8) << 8 | reader_bi_m.read(2 * 8, 8);
-
-        result.temp = 1.0 / (1.0/298.15 + 1.0/3650 * log( (22.1e3 / ((4095 - temp_byte) / temp_byte) ) / 2.2e3) ) - 273.15 ;
+        float temp = 1.0 / (1.0/298.15 + 1.0/3650.0 * log( (22100.0 / ((4095.0 - temp_byte) / temp_byte) ) / 2200.0) ) - 273.15 ;
+        result.temp = temp;
         result.humid = 0 ; //humid_byte ;
     }
 
