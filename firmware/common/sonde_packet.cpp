@@ -170,7 +170,7 @@ temp_humid Packet::get_temp_humid() const {
     result.humid = 0;
     result.temp = 0;
 
-    if (type_ == Type::Meteomodem_M10){
+    if (type_ == Type::Meteomodem_M20){
         result.temp = reader_bi_m.read(6 * 8, 16);
     }
 
