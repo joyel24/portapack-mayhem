@@ -170,6 +170,10 @@ temp_humid Packet::get_temp_humid() const {
     result.humid = 0;
     result.temp = 0;
 
+    if (type_ == Type::Meteomodem_M10){
+        result.temp = reader_bi_m.read(6 * 8, 16)
+    }
+
     if (type_ == Type::Vaisala_RS41_SG && crc_ok_RS41())  // Only process if packet is healthy
     {
         // memset(calfrchk, 0, 51); // is this necessary ? only if the sondeID changes (new sonde)
