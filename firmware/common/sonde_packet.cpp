@@ -172,6 +172,7 @@ temp_humid Packet::get_temp_humid() const {
 
     if (type_ == Type::Meteomodem_M20){
         result.temp = reader_bi_m.read(6 * 8, 16);
+        result.humid = reader_bi_m.read(7 * 8, 8) << 2 | result.humid = reader_bi_m.read(6 * 8, 8);
     }
 
     if (type_ == Type::Vaisala_RS41_SG && crc_ok_RS41())  // Only process if packet is healthy
